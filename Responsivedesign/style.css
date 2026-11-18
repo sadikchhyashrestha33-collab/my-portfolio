@@ -5,7 +5,7 @@
     
     .column {
       flex: 1;
-      padding: 20px;
+      padding: 10px;
     }
     
     @media (max-width: 600px) {
@@ -13,27 +13,28 @@
         flex: 100%;
       }
     }
-.responsive-image {
+
+    .responsive-image {
       max-width: 100%;
       height: auto;
     }
-.media-query-box {
+    .media-query-box {
       padding: 20px;
       text-align: center;
     }
     
     @media (max-width: 600px) {
       .media-query-box {
-        background-color: chocolate;
+        background-color: lightcoral;
       }
     }
     
     @media (min-width: 601px) {
       .media-query-box {
-        background-color: yellow;
+        background-color: lightblue;
       }
     }
-.responsive-nav .nav-list {
+ .responsive-nav .nav-list {
       display: flex;
       list-style: none;
     }
