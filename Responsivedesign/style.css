@@ -25,13 +25,13 @@
     
     @media (max-width: 600px) {
       .media-query-box {
-        background-color: lightcoral;
+        background-color: yellow;
       }
     }
     
     @media (min-width: 601px) {
       .media-query-box {
-        background-color: lightblue;
+        background-color: grey;
       }
     }
  .responsive-nav .nav-list {
